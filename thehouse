@@ -1,0 +1,160 @@
+===house
+<br>
+You find yourself sitting on the sofa, while Toby moves things around in the kitchen.
+
+The kettle drones. There's a games console under the TV, and a half-finished knitted blanket on a dining room chair. Toby hands you a mug, which is way too hot, and you put it down on the coffee table. He sits back, still holding his, and looking at you.
+
+"First question."
+
++ "Are you gay? Do you call yourself that? Is that how it works? Sorry."->g_s
++ "Do you use a- God, is it ok to call it a dil-"->g_j
+
+===g_j
+<br>
+
+"-Some people call it a dildo. I call mine 'my prosthetic'. For me, that feels like a more accurate way to describe it. I'm wearing it right now."
+
+He smiles.
+
+"It's an everyday piece of equipment for me, like my binder, or my underwear. I feel weird without it. And, although it hasn't happened yet, it's nice to know that, should it happen, I could...react like any other guy."
+
++ He looks at you, and then laughs at himself.->two
+
+=two
+<br>
+"God, it's all so much easier than it was before. It's so much less...scary, and nauseating, and fraught. I finally understand it. Jesus."
+
++ {not j_s} "You talked about how relationships are more difficult now, but, you seem a lot happier than you were before."->j_s
++ {not j_g} "So. Sex is not necessarily difficult. Then, how do you feel about your own...genitals?"->j_g
++ ->fallback_to_me
+
+===g_s
+<br>
+He takes a sip of coffee, and nods patiently, like he's explaining Microsoft Word to an elderly relative.
+
+"Yes, yes, that's what we call it. On account of me, being a man, and liking men. Don't worry, I'm not offended. I can...tell that you mean the same thing as what I'm thinking. Even if you had the wrong words. And, believe me,"
+
+He shoots you a look.
+
+"...I can tell when someone has it twisted."
+
++ {not s_j} "Are you...making fun of me?"->s_j
++ ->fallback_to_me
+
+===j_s
+<br>
+He tilts his head on one side, figuring out how to phrase something.
+
+"I just feel like...I know who I am now. I don't have to play this character who likes having sex in that specific way. Before I transitioned...There was a line from a song, that always stuck in my head, and I thought 'yeah, that's how it feels': 'When I make love it won't be me'. And, given the context of the song..."
+
++ He falls quiet. He seems embarrassed. Or upset. Closed off. He takes another sip.->two
+
+=two
+<br>
+"...Yeah."
+
+He takes a breath, and exhales slowly. Then, he shakes it off, and smiles at you. 
+
+"I'm ok. I'm here."
+
+He makes a fist and knocks it on your knee.
+
+"I'm here."
+
+//{not s_g} + ""->s_g
++ {not s_j} "I know you said this was ok, but, am I asking too many questions?"->s_j
++ ->fallback_to_me
+
+
+===j_g
+<br>
+"My genitals are great. I mean, they work. They make me feel pretty good. What's not to like?"
+
+He shrugs.
+
+"You people expect us all to say 'Oh god, the pain', and yeah, like I fucking hate my chest. But my dick?"
+
++ He looks right at you and grins at your expression.->two
+
+=two
+<br>
+"Yeah. I call it my dick, because it's made of the same stuff as yours, just smaller. Look it up. It's grown a little bit since I started testosterone. It was actually one of the first things that happened. 
+
+He pulls one knee up to his chest.
+
+"You don't hear much about them online or in the media. Everyone's too interested in phalloplasty or whatever. Which is valid. I, on the other hand, have... options. Which is fun."
+
++ {not g_j} "By 'options', you're talking about-" ->g_j
++ {not g_s} "And...am I right in thinking that you call yourself...'gay'?...?"->g_s
++ ->fallback_to_me
+
+//===s_g
+
+
+===s_j
+<br>
+He looks at you, and relaxation washes over his face. He smiles.
+
+"Everything's fine. I'm enjoying this. A lot. I thought it would feel invasive, but...I can tell that you're actually interested."
+
++ {not j_g} "Um, yes...Look, lf you're ok talking about it, is it ok if I ask about your, er, your existing-"->j_g
++ {not j_s} "Oh. I suppose I am. Ha. I'm glad you feel you can be so open about it."->j_s
+
+
+===fallback_to_me
+
++ "How...would you have sex with me? Or, someone...like me?"->to_me
+
+===to_me
+<br>
+He looks at you. He makes as if to say something, then pauses. He puts his coffee mug on the table, next to yours, and sits up, looking at you.
+
+"I don't know. I've never done this before. I've thought about it a lot. Not you. Just this."
+
+He leans in.
+
++ Kiss his lips.
+    You meet him halfway, his hand rises to touch the hairs at the nape of your neck.
++ Let him kiss your neck.
+    You tilt your head back. He accepts, you feel his lips and teeth marking you.
+- He shifts forward, pushing you back onto the armrest.
++ Pull his hair a little.
+    You hear him sigh at the sharpness, and see the muscles in his jaw clench.
++ Push your knee against his crotch.
+    { g_j: 
+    He rubs against you with his prosthetic. "You've been thinking about me fucking you with this since I explained it to you, right?"
+    - else: 
+    You feel a thick cock there. He smirks at you. "I have options for how I fuck people." He says.
+    }
+- He starts fumbling with his jeans.
++ Undo them for him.
+    Then, he puts a hand on yours, to slow you down.
+    "My cock, my prosthetic, it only works if I keep my pants on. You can pull my jeans down, though. Got it?"
+    You nod.
++ Undo your own.
+    You watch as he pulls out his prosthetic cock, and runs his fist up and down a couple of times.
+- His hips jerk involuntarily a few times. He guides your hand round the side of the cock, and you feel a small bump beneath the surface.
+"Yeah. There it is. Press that."
+You do so, the prosthetic hums into life, and Toby's head falls back.
+
+
+->END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
