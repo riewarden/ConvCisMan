@@ -61,7 +61,7 @@ He makes a fist and knocks it on your knee.
 
 "I'm here."
 
-//{not s_g} + ""->s_g
+
 + {not s_j} "I know you said this was ok, but, am I asking too many questions?"->s_j
 + ->fallback_to_me
 
@@ -78,7 +78,7 @@ He shrugs.
 
 =two
 <br>
-"Yeah. I call it my dick, because it's made of the same stuff as yours, just smaller. Look it up. It's grown a little bit since I started testosterone. It was actually one of the first things that happened. 
+"Yeah. I call it my dick, because it's made of the same stuff as yours, just smaller. Look it up. It's grown a little bit since I started testosterone. That was actually one of the first things that happened. 
 
 He pulls one knee up to his chest.
 
@@ -105,45 +105,8 @@ He looks at you, and relaxation washes over his face. He smiles.
 
 + "How...would you have sex with me? Or, someone...like me?"->to_me
 
-===to_me
-<br>
-He looks at you. He makes as if to say something, then pauses. He puts his coffee mug on the table, next to yours, and sits up, looking at you.
-
-"I don't know. I've never done this before. I've thought about it a lot. Not you. Just this."
-
-He leans in.
-
-+ Kiss his lips.
-    You meet him halfway, his hand rises to touch the hairs at the nape of your neck.
-+ Let him kiss your neck.
-    You tilt your head back. He accepts, you feel his lips and teeth marking you.
-- He shifts forward, pushing you back onto the armrest.
-+ Pull his hair a little.
-    You hear him sigh at the sharpness, and see the muscles in his jaw clench.
-+ Push your knee against his crotch.
-    { g_j: 
-    He rubs against you with his prosthetic. "You've been thinking about me fucking you with this since I explained it to you, right?"
-    - else: 
-    You feel a thick cock there. He smirks at you. "I have options for how I fuck people." He says.
-    }
-- He starts fumbling with his jeans.
-+ Undo them for him.
-    Then, he puts a hand on yours, to slow you down.
-    "My cock, my prosthetic, it only works if I keep my pants on. You can pull my jeans down, though. Got it?"
-    You nod.
-+ Undo your own.
-    You watch as he pulls out his prosthetic cock, and runs his fist up and down a couple of times.
-- His hips jerk involuntarily a few times. He guides your hand round the side of the cock, and you feel a small bump beneath the surface.
-"Yeah. There it is. Press that."
-You do so, the prosthetic hums into life, and Toby's head falls back.
-
-
-->END
-
-
-
-
-
+    
+    
 
 
 

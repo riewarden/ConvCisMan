@@ -1,7 +1,18 @@
 INCLUDE thehouse
+INCLUDE ending
+VAR sex = true
+
 ->start
 
 ===start
+
+Please note, while this game is 100% text based, the topics it discusses makes it only suitable for 18+ audiences.
+
+Content warnings: sexually explicit scenes, internalised transphobia, brief mention of implied sexual assault, dominant/submissive dynamics
+
++ Play the game.->start_real
+
+===start_real
 You and Toby got the same bus back from life drawing, this evening. 
 
 The two of you live in the same suburb but in different areas. Usually, you get off the bus, walk to the end of the road, and part ways. It's late, but you can tell he's trying to delay the end of the conversation. 
@@ -60,8 +71,8 @@ He shrugs.
 
 "It's nice. It feels like something has finally progressed for me. But I don't know exactly how much it changes things. I can't quite quantify it."
 
-+ "Would you...go out with someone, who knew you from before?"->d
 + {not pf_co} "I'm sorry if I've made you feel uncomfortable."->pf_co
++ ->fallback_d
 
 ===co_pf
 <br>
@@ -203,7 +214,6 @@ He looks up at you again.
 "Do I know what you're going to ask? Go on. You're allowed to."
 
 + "How...er...how do you have...those kinds of relations...with, er, people?...Er, intimately...you... don't- you don't have to answer. It's fine. It's cool."->explicit
-+ "I'm not going to ask you how you have sex."->nonexplicit
 
 ===explicit
 <br>
@@ -212,16 +222,6 @@ He pauses, for a long time. You start to wonder if he was deliberately trying to
 "I mean, I'm not going to discuss it out here. But you can come in for a coffee."
 
 + "...Sure."->house
-+ "No thanks."->nonexplicit
-
-===nonexplicit
-<br>
-End of demo. Click restart.
-
--> END
-
-
-
 
 
 
