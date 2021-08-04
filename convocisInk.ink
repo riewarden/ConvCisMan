@@ -1,5 +1,7 @@
 INCLUDE thehouse
 INCLUDE ending
+INCLUDE sexscenes
+
 VAR sex = true
 
 ->start

@@ -1,222 +1,7 @@
-=== function came_from(-> x) 
-	~ return TURNS_SINCE(x) == 0
-
-===to_me
-<br>
-He looks at you. He makes as if to say something, then pauses. He puts his coffee mug on the table, next to yours, and sits up, looking at you.
-
-"I don't know. I've never done this before. I've thought about it a lot. Not you. Just this."
-
-He leans in.
-
-+ (kiss) Kiss his lips.
-    You meet him halfway, his hand rises to touch the hairs at the nape of your neck.
-+ (neck) Let him kiss your neck.
-    You tilt your head back. He accepts, you feel his lips and teeth marking you.
-+ "Stop. I'm not okay with this."
-    He stops, and leans back.
-    "Sure. Ok. Not aproblem."
-    ~sex = false
-
-- He shifts forward, pushing you back onto the armrest.
-
-+ (pullhair) Pull his hair a little.
-    You hear him sigh at the sharpness, and see the muscles in his jaw clench.
-+ (pushknee) Push your knee against his crotch.
-    { g_j: 
-    He rubs against you with his prosthetic. 
-    "You've been thinking about me fucking you with this since I explained it to you, right?"
-    - else: 
-    You feel a thick cock there. He smirks at you. 
-    "I have options for how I fuck people." He says.
-    }
-- He starts fumbling with his jeans, then pauses. He looks down at the sofa, and at you, awkwardly splayed on it.
-"This is going to be super awkward down here. And I have like, none of my stuff. Let's go upstairs, huh?"
-
-+ He holds out his hand, and leads you to his room.->room
-
-===room
-<br>
-Inside, there are boxes of books on the floor, along with a easel, crammed up next to a desk, covered in parchment. He leans over and turns the desk lamp on.
-"-So that it's kind of moody, but you also won't trip and break your neck-" He explains, before attending once more to his jeans.
-+ (shirtoff) Undo your shirt slowly.
-    He watches you, fumbling with a button repeatedly, not wanting to drag his eyes away.
-    "Fuck, I want to leave your chest covered in marks. Don't take the whole thing off. You look lovely, like that."
-+ (shirton) Take out your cock, and stroke it.
-    He smiles.
-    "God, you look so hot. You're so fucking nervous, but now we're finally on the same page, you're bold all of a sudden. How long have you been thinking about this, you filthy sexy pervert? Am I going to have to teach you a lesson?"
-- You watch as he pulls out his prosthetic cock, and runs his fist up and down a couple of times. His hips jerk involuntarily a few times, then he gestures for you to come closer.
-"Put your hand on my cock."
-+ You reach out, and he puts a gentle hand on yours.
-- "My cock- my prosthetic- it only holds in place, if I keep my pants on. But that's not going to stop me fucking you senseless."
-He guides your hand round the side of the cock, and you feel a small bump beneath the surface.
-"Yeah. There it is. Press that."
-
-+ You do so. 
-- The prosthetic hums into life, and Toby's head falls back. You feel his hand tighten over yours as he shift's the cock's position, to get some extra friction and he laughs with relief.
-"Fuck, yes."
-Then, his head tilts forward to look at you again. He cups his hand around your jaw, and strokes your cheekbone.
-"Tell me how you want me to fuck you."
-
-+ "Fuck me hard."->hard
-+ "Fuck me gently."->gently
-
-===hard
-<br>
-He nods, as if he's planning something out, then <>
-{
-- room.shirtoff: he roughly pulls your open shirt off your body, and kisses your neck, with teeth, grabbing your hips, and steering you towards the bed. 
-"I want to make good on my promise of leaving marks on this fucking excellent body."
-- room.shirton: he grabs your shirt collar, and rakes his fingers through your hair, and manhandles you towards the bed. 
-"You thought I was messing, when you were touching yourself earlier?"
-}
-As he pushes you at the bed, the force makes your knees buckle, and he falls on top of you. He wrestles you out of your trousers, and your pants. He reaches across to the nightstand to grab some lube...
-
-+ ...and an odd syringe-looking device.->two
-=two
-<br>
-"I'm not using it on you." He says automatically. He draws some lube into it, and injects it into the top of his prosthetic. He grins at you, revelling in the strangeness of the act. 
-
-"Can you guess what this is for? You dumb, fucking cis-boy?" He teases. He looks at you pityingly, as he tosses the syringe aside, and slicks his cock.
-
-"Nah. Not good for much, are you? ...Well. That's not entirely true..."
-
-He drops the lube bottle, softens a little, and tilts his head at you.
-
-"Is this what you want?"
-
-+ "Fuck yes."->org
-+ "Actually, I need a moment."->calibrate
-
-=org
-<br>
-"Good. Now get on your knees, so I can fuck you."
-
-You feel his hands on your ass, and he starts to work you, with his lubed fingers. Soon, your hole is slick and desperate for his cock. You feel Toby grip your hips from underneath, then his cock at your entrance. Then, he sinks himself into you, to the hilt. He starts fucking you roughly from behind. {room.shirtoff: Every so often, you feel a twinge of pain, as he leaves hickies, all over your back.}
-
-+ Once he finds a rhythm, he starts to pump your cock with every thrust.
-- His other hand grips your hair. When your thighs are shaking, and desperate noises spill from your mouth, he grips your cock.
-
-+ "You're going to cum for me."
-- 
-+ "That's right. Moan like a fucking whore."
--
-+ "Fucking. Cum for me."
-- Gasping, with burning spots behind your eyes, you release heavily, over the bedsheets. 
-
-- You heard Toby moan behind you, and suddenly feel a splatter across your back. Toby gasps, in apparent amazement. You dimply remember him telling you he's never done this before. So, that's what he was doing with the syringe. So he could...right... 
-    
-+ ...Then, you collapse on your front.->after_glow
-
-
-===gently
-<br>
-He nods. There's something breathless about him that starts to slow down. He guides you to sit on the bed, and kneels in front of you. He pulls you in for another kiss.
-{
-- room.shirtoff: His hands roam up your bare skin, under your undone shirt, his fingertips pressing into your back, your sides, your chest.
-"God, I've been thinking about this, from the second you started unbuttoning this..."
-He puts his hands on your shoulders, and starts to bite lightly at your chest, leaving a pattern of hickies on his way down. 
-- .shirton: He kisses the crook of your neck, causing you to tip your head back, as he undoes your shirt buttons. 
-"You have such a fucking beautiful body. I want to enjoy you, nice and slowly.
-
-As his fingers patiently move downwards through the buttons, he moves to your collarbone, then your ribs, then your stomach.
-}
-+ When he reaches your crotch, he pulls your trousers down.->two
-
-=two
-<br>
-- Holding your cock aside, he kisses the sensitive skin right at the top of your inner thighs.
-
-"Touch yourself for me. Hang on." He murmurs, and moves to the nightstand to retrieve some lube.
-
-He returns with lube, and leans over to squirt some into your hand.
-
-"If you want to get yourself ready."
-
-In his other hand, he has a syringe-looking instrument. He smiles reassuringly, and gestures with it.
-
-"Don't worry, this isn't for you."
-
-You watch, as he draws lube from the bottle, and injects it into the end of his cock.
-
-"It lets me cum. Looks a little odd, I suppose, but not much I can do about that." 
-
-+ Then, he puts more in his hand, and turns his attention to you.->three
-
-=three
-<br>
-"Fuck, I can't wait to make you feel good."
-
-He tilts his head, and looks at you.
-
-"Is this what you want?"
-
-+ "Fuck yes."->org
-+ "Actually, I need a moment."->calibrate
-
-=org
-<br>
-He nods, gives you a moment to get into a comfortable place, and positions himself over you.
-
-"Hold my hand. Squeeze it when you want me to push in."
-
-He fucks you slowly, you hear his breathing become deep, and restrained. His cock grazes your g-spot, making you shudder, and reel back, and he seizes on your throat with a kiss.
-
-After a while, he changes pace. It's still exquisitely, almost painfully slow, but he snaps his hips a little harder, to make you keen, and yelp with need. Every hit is breathtaking, and infuriatingly just not quite enough. It's agony.
-
-"God, you take my cock so well." He murmurs. "Fuck, you're good. You're so perfect like this. Christ."
-
-He threads his fingers in your hair, and with every thrust, he watches your expression.
-
-+ "That's it. You're close, aren't you?"
-- 
-+ "I'm really fucking close too. You're so good. You're so beautiful."
--
-+ "God- Yes-! I'm going to cum on you. You'll look so good, dripping with my cum."
- 
-    Finally, at long last, your release hits. It leaves your whole body aching, and while your muscles are rigid, Toby pulls out, as smoothly as he's able, and positions his hand near the top of his cock. He grunts, then gasps, releasing on your chest. He moans, shudderingly, and stares down at you. 
-    
-- It's hard to tell if he's in post-orgasm haziness, or... Then, you suddenly remember that he's never done this before. He said that, earlier this evening.
-
-+ ...Then, he collapses to lay beside you. ->after_glow
-
-===calibrate
-<br>
-He nods, and becomes more neutral.
-
-"What are you feeling?"
-
-{TURNS_SINCE(-> hard.two)}
-
-* "Actually, I've changed my mind. Can we skip this?"
-    "Of course. Thank you for being honest." 
-    ~sex = false 
-    ->after_glow
-
-* {TURNS_SINCE(-> hard.two) > 0 and TURNS_SINCE(-> hard.two)< 2} "Ok, I'm good. I want it hard."
-     "You got it." ->hard.org
-    
-* {TURNS_SINCE(-> hard.two) > 0 and TURNS_SINCE(-> hard.two)< 2} "This is a little intense. I want it gentle."
-     "No problem." ->gently
-    
-* {TURNS_SINCE(-> gently.three) > 0 and TURNS_SINCE(-> gently.three)< 2} "I'm getting bored. I want it hard."
-    "Oh, really? Well, let me think." 
-     ->hard
-
- * {TURNS_SINCE(-> gently.three) > 0 and TURNS_SINCE(-> gently.three)< 2} "This is good, actually. Keep going."
-     "Sure thing." ->gently.org
-
- * {gently and hard} "I'm not sure where my head is at. Can we skip this?"
-     "Yeah, yeah, of course."
-     ~sex = false
-     ->after_glow
-
 ===after_glow
 
-The two of you sit next to each other in{room:  comfortable} silence. Toby looks across at you.
-
-{sex == false and room == false: ->afterdark}
-{sex == true: ->postcoit|->two}
+The two of you sit next to each other in{room:  comfortable} silence. Toby looks across at you{not sex:, a little concerned, clearly trying out various responses in his head}.
+{sex == false and room == false: ->afterdark} {sex == true: ->postcoit|->two}
 
 =postcoit
 "Was that...ok? I was worried that it was...{hard.org:too intense}{gently.org:too vanilla}." 
@@ -234,42 +19,55 @@ The two of you sit next to each other in{room:  comfortable} silence. Toby looks
 =two
 He puts his hand next to yours.
 
-+ Take it.
++ [Take it.]You take it.
     His thumb moves across your palm.
 + Leave it.
 
 - More silence.
 
-"I had a really nice time tonight." He says, after a while. "{sex == false: Don't worry about the sex. I don't mean the sex.| Not just the sex, mind.}"
+"I had a really nice time tonight." He says, after a while. "{sex == false:Don't worry about the sex. I don't mean the sex.| Not just the sex, mind.}"
+
+{sex: "And the sex was great. That's a weight off my mind. Just knowing I can do it with a cis guy now. Obviously, I like you a lot, but this has also been very useful experience for me on a practical level. Getting over the first-time nerves. Is that selfish? I tried to fuck you in an un-selfish way. At the very least. Well, whatever happened, I think we both enjoyed it a lot. That's something, right?" <br> He grins at you.}
 
 + He sighs, happily.->three
 
 =three
 <br>
-"This meant a lot to me. To connect, with another guy, like this. I know I've been talking your goddamn ear off, and ordering you around, but, I just don't...hear about things like this. Read about them, see them on TV."
+He stares into the middle distance for a while, before he speaks again.
+
+"This meant a lot to me. To connect, with another guy, like this. I know I've been talking your goddamn ear off, and ordering you around, but, I just don't...hear about things like this happening. Or, read about them, or see them on TV."
 
 He looks at you with a deep fondness.
 
-"You've made me feel...really special. And, I can carry that with me now.
+"You listened to me. You were interested to know about me, about how my body works, how I love, and fuck.{not sex: And when you didn't want to take it any further, you were honest about it. That's so important to me.}"
+
+* {sex} He shuffles closer, and puts his head on your shoulder. 
+* {not sex} He hesitantly brushes your shoulder with his hand.
+- ->threepoint
+
+=threepoint
+
+"So much of the time, I feel like I'm not supposed to even talk about what sex means to me. But, you made me feel really special, and made me feel like, it is ok. And, I can carry that with me now. I thought the sex was the most important part but I think, it was just nice to be reminded I can talk about things and just...be listened to."
 
 + He strokes your hair, and looks into your eyes.->four
 
 =four
+<br>
 "I only hope I did something similar for you."
 
 ->END
 
 ===afterdark
-"If you don't want to, that's ok." He says.
+"If you don't want to, that's ok." He says, and smiles at you reassuringly.
 
-He looks away. Another silence.
+He looks away. 
 
-He looks back.
+Another silence.
 
-"So...what were all the questions for?"
-+ "Well...you didn't tell me to stop asking."
+"So..." He says, hesitantly, "...What were all the questions for?"
++ "Well...you didn't tell me to stop asking...So..."
     ->questions
-+ "I do like you. This is just...a lot."
++ "I do like you. In some way. This is just...a lot."
     ->after_glow.two
     
 + "I...don't know."
@@ -279,30 +77,56 @@ He looks back.
     
     He looks at the carpet. Another long silence.
     
-    "Look, when you've figured it out, just...let me know. Or don't."
+    "Look, when you've figured it out, just...let me know."
     
     He puts his face in his hands.
     
-    "God, I'm exhausted. I hope you're ok."
+    "God, I'm exhausted. I hope you're doing ok."
     
     ++ "You...didn't tell me to stop asking questions."->questions
-    ++ "Ok. My head's a little clearer. I do like you.->after_glow.two
+    ++ "Ok. I think I like you in some way, but I'm not sure what that is yet.->after_glow.two
     ++ "I'm going to go away and think about this."->go_away
     
-=questions
-    He grits his teeth.
+===questions
+    He nods, and grits his teeth.
 
     "Yeah. I didn't. I thought it was part of it. When you're asking a person...very intimate and really quite invasive questions about how they have sex, it sends a certain message."
     
-    ++ He turns away from you.
-    "Now, yes, communication and explicit consent is everything, especially in sexual relationships. But why is it, that if I was cis, I don't believe that you would have responded to my question, in the way that you just did? That actually, it was my fault for answering your questions, and trusting that you had an actual reason for asking them. I think, if I was cis, you would know that that would be an incredibly manipulative, gaslighty thing to say to me."
+    ++ He clasps his hands.->two
     
-    +++He grabs his head.
-    "Even now, even now, I'm still wondering if I'm the one who's completely wrong. Am I just stupid, for telling a guy that I would explain to him how I have sex, but only if he comes into my house. He then asks multiple questions about how I have sex, and how my genitals work, and how I feel about that. He then asks me to explain how I would have sex with him. He then says 'actually, this is not what this is about. I was in fact, just asking questions'."
+=two
+<br>
+    "Now, yes, communication and explicit consent is everything, especially in sexual relationships. But, why is it that I don't believe that you would have excused this whole situation as 'just asking questions', if I was cis?"
     
-    ++++He breathes heavily.
+    + He glares at you.->three
+=three  
+<br>
+    "Here's what I think you're saying. You're saying that it was actually MY fault for answering YOUR personal questions about me, and trusting that you had an actual REASON for asking them. 
     
-    "I answered your questions, because thought you cared. That you actuallly wanted to...know me better. {j_g:And, well, you had me completely fooled. }You were just asking me all those things because...because my sex life is some interesting trivia. Well, why learn it from me? A person? You can learn trivia, fucking anywhere!"
+    His voice sounds tightly coiled.
+    
+    "I think, if I was also cis, you would realise that you actually can't just ask a person a bunch of sexual questions like that, and then act like the other person is being completely unreasonable by assuming you had a sexual reason for doing so."
+    
+    + He grabs his head in frustration.->four
+=four
+<br>
+    "Even now, even now! I'm still wondering if I'm the one who's completely wrong." 
+    
+    He holds up his hands in bewilderment, and you can see him shaking.
+    
+    "Am I just stupid, for telling a guy that I would explain to him how I have sex, but only if he comes into my house? And, then, he asks multiple questions about how I have sex, and how my genitals work, and how I feel about that. He then asks me to explain how I would have sex with him. He then says 'Actually, this is not what this is about. I was in fact, Just Asking Questions'. 
+    
+    + He turns to you, suddenly.->five
+    
+=five
+<br>
+    "Am I supposed to just wait patiently, for dumb fucking cis people to ask me any question about my body that they like, so I can bare my fucking soul, for their benefit, and, just be, 'okay', when there's absolutely nothing in it for me? Not even a simple conversation where I'm not being lied to, the entire fucking time? I don't need you to have sex with me. I just want you to be honest about why you're bothering to talk to me."
+    
+    + He breathes heavily.->six
+
+=six
+<br>
+    "I answered your questions, because I thought you cared. That you actually wanted to...know me better. {j_g:And, well, you had me completely fooled. }You were just asking me all those things because...because my sex life is some interesting trivia. Well, why learn it from me? A person? You can learn trivia, fucking anywhere!"
     
     He stands up and points at the door, he's seething with rage.
     
@@ -310,7 +134,7 @@ He looks back.
     
     ->END
     
-=go_away
+===go_away
   He nods.
   
   "Ok. If that's how you feel."
