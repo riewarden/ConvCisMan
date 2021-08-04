@@ -186,34 +186,30 @@ He nods, and becomes more neutral.
 
 "What are you feeling?"
 
-* "I'm ok. Let's keep going."
-    "Got it."{hard: ->hard.org| ->gently.org}
+{TURNS_SINCE(-> hard.two)}
 
 * "Actually, I've changed my mind. Can we skip this?"
     "Of course. Thank you for being honest." 
     ~sex = false 
     ->after_glow
 
-// * {came_from(-> hard)} "Ok, I'm good. I want it hard."
-//     "You got it." ->hard.org
+* {TURNS_SINCE(-> hard.two) > 0 and TURNS_SINCE(-> hard.two)< 2} "Ok, I'm good. I want it hard."
+     "You got it." ->hard.org
     
-// * {came_from(-> hard)} "This is a little intense. I want it gentle."
-//     "No problem." ->gently
+* {TURNS_SINCE(-> hard.two) > 0 and TURNS_SINCE(-> hard.two)< 2} "This is a little intense. I want it gentle."
+     "No problem." ->gently
     
-// * {came_from(-> gently)} "I'm getting bored. I want it hard."
-//     "Oh, really? Well, let me think." 
-//     ->hard
+* {TURNS_SINCE(-> gently.three) > 0 and TURNS_SINCE(-> gently.three)< 2} "I'm getting bored. I want it hard."
+    "Oh, really? Well, let me think." 
+     ->hard
 
-// * {came_from(-> gently)} "This is good, actually. Keep going."
-//     "Sure thing." ->gently.org
+ * {TURNS_SINCE(-> gently.three) > 0 and TURNS_SINCE(-> gently.three)< 2} "This is good, actually. Keep going."
+     "Sure thing." ->gently.org
 
-// * {gently and hard} "I'm not sure where my head is at. Can we skip this?"
-//     "Yeah, yeah, of course."
-//     ~nosex = true 
-//     ->after_glow
-
-
-
+ * {gently and hard} "I'm not sure where my head is at. Can we skip this?"
+     "Yeah, yeah, of course."
+     ~sex = false
+     ->after_glow
 
 ===after_glow
 
