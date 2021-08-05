@@ -117,11 +117,25 @@ He looks at you, and relaxation washes over his face. He smiles.
 ===fallback_to_me
 
 + "How...would you have sex with me? Or, someone...like me?"->to_me
++ "I think I'm making a mistake."->mistake
 
+===mistake
+<br>
+He looks across at you.
+
+"Is everything ok? I can dial it back."
+
++ "I think I was genuiunely curious. But, I don't feel about you that way."
++ (hurts)"I think...you're giving me a lot. And, I'm not willing to give the same back."
     
-    
+- He nods.
+"Ok. Thank you for admitting it. {hurts: I won't lie, that kind of hurts,} but I'm glad you've been honest with me. I can't ask much more."
 
+A silence. He drums his fingers on his knee.
 
+"Alright. Come on. I'll show you out."
+
++ You follow him to the door->leavehouse
 
 
 

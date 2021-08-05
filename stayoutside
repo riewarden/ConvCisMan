@@ -1,7 +1,44 @@
 ===leavehouse
+<br>
+{house: He walks you out to the street.} There's a cool breeze in the air. Not too cold. Toby lingers, again.
 
++ "I need to go."->go_end
++ "...Everything ok?"->everything_ok
 
+===everything_ok
+<br>
+He pushes his hands into his pockets, nervously.
 
+"Do you still want to be friends? Still...hang out after the class?"
 
++ "Sure."
+    He sighs with relief.
+    "Good. Great. {house: ->sex_debrief}
+    He scratches his chin.
+    "It was really nice talking to you. I know...I did 90% of the talking...but I needed it, and I appreciate you giving that time and space to me, and for not putting yourself out more than you felt comfortable doing."
+    
++ "I need to think about it. I hope you understand."->go_end
+
+===go_end
+<br>
+He nods.
+
+"Cool. Safe journey home."
+
+->END
+
+===sex_debrief
+<br>
+He avoids your eyes.
+"I'm sorry I kind of...came on to you without a lot of warning. I think in the context, it kind of made sense, but, I still put you under pressure, and...I hope you understand why I thought it was appropriate, and...I hope it doesn't change things too much. I can still appreciate you without...'that' aspect of it. But, it's up to you."
+
++ "It's ok. I get why you did it, I just...didn't feel that way."
+    He smiles.
+    "No problem. Sometimes you don't know until you're in the moment."
+    ->go_end
+    
++ "Yeah. I wasn't ok with that."
+    He nods.
+    "Right. Understood. Sorry."->go_end
 
 ->END
