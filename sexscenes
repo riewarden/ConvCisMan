@@ -68,7 +68,7 @@ He nods, as if he's planning something out, then <>
 {
 - room.shirtoff: he roughly pulls your open shirt off your body, and kisses your neck, with teeth, grabbing your hips, and steering you towards the bed. 
 "I want to make good on my promise of leaving marks on this fucking excellent body."
-- room.shirton: he grabs your shirt collar, and rakes his fingers through your hair, and manhandles you towards the bed. 
+- room.shirton: he grabs your shirt collar, rakes his fingers through your hair, and manhandles you towards the bed. 
 "You thought I was messing, when you were touching yourself earlier?"
 }
 As he pushes you at the bed, the force makes your knees buckle, and he falls on top of you. He wrestles you out of your trousers, and your pants. He reaches across to the nightstand to grab some lube...
@@ -93,19 +93,54 @@ He drops the lube bottle, softens a little, and tilts his head at you.
 <br>
 "Good. Now get on your knees, so I can fuck you."
 
-You feel his hands on your ass, and he starts to work you, with his lubed fingers. Soon, your hole is slick and desperate for his cock. You feel Toby grip your hips from underneath, then his cock at your entrance. Then, he sinks himself into you, to the hilt. He starts fucking you roughly from behind. {room.shirtoff: Every so often, you feel a twinge of pain, as he leaves hickies, all over your back.}
+You feel his hands on your ass, and he starts to work you, with his lubed fingers. Soon, your hole is slick and desperate for his cock. You feel Toby grip your hips from underneath, then his cock, teasing at your entrance. 
+
+"Asking all those questions? What, are you too scared to tell me what you want? What are you going to give me, to say sorry?"
+
++ (master) "I'll call you 'Master'."
+    "Oh. I like that."
+    He strokes your hair.
+    "You're going to be a good boy, for your Master. That's right." 
+    His grip tightens.
+    Now, I want to hear you say it."
+    ++ "Fuck me, Master."->sink
+
++ (beg) "I'll beg for your cock."
+    "What a good idea. Now, do you want my cock?"
+    ++ "Yes. Please."
+    He presses it at your entrance. "I don't believe you."
+    +++ "I fucking need it."
+    He rubs his shaft against you.
+    ++++ "Christ. Please."
+    "Ah- ah! Statement." His hand roams over your thigh, and starts squeezing your balls.
+    +++++ "This is f-fucking agony."
+    "Stop stating the fucking obvious, and tell me what you want."
+    ++++++ "Fuck you... 'Need your cock inside me."
+    "That's it, you're really needy now. I want to hear what you want."
+    +++++++ "Please, please, fuck me, like I'm good for nothing else!"
+        "Oh. Fuck yes, that's excellent. ->sink
+
+=sink
+<br>
+Then, he sinks himself into you, to the hilt. He starts fucking you roughly from behind. {room.shirtoff: Every so often, you feel a twinge of pain, as he leaves hickies, all over your back.}
 
 + Once he finds a rhythm, he starts to pump your cock with every thrust.
 - His other hand grips your hair. When your thighs are shaking, and desperate noises spill from your mouth, he grips your cock.
 
-+ "You're going to cum for me."
++ "You're going to cum{master: for your Master, and be my willing servant}{beg:, because you've been desperate for my cock since you arrived}."
 - 
-+ "That's right. Moan like a fucking whore."
++ "That's right. Moan like a {master:good boy. You're mine, and I want to hear you say it}{beg:whore. The whole street is going to hear what a filthy, needy creature you are}."
 -
-+ "Fucking. Cum for me."
-- Gasping, with burning spots behind your eyes, you release heavily, over the bedsheets. 
+{master: "Cum for me.->fin}
+{beg: "Fucking. Cum for me."->fin}
 
-- You heard Toby moan behind you, and suddenly feel a splatter across your back. Toby gasps, in apparent amazement. You dimply remember him telling you he's never done this before. So, that's what he was doing with the syringe. So he could...right... 
+=fin
+<br>
+- {master:<i>"Yes, Master!"</i><br>}Gasping, with burning spots behind your eyes, you release heavily, over the bedsheets. 
+
+- You hear Toby moan behind you, and suddenly feel a splatter across your back. Toby gasps. You dimly remember him telling you he's never done this before. 
+
+So, that's what he was doing with the syringe. So he could...right... 
     
 + ...Then, you collapse on your front.->after_glow
 

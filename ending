@@ -1,6 +1,6 @@
 ===after_glow
 
-The two of you sit next to each other in{room:  comfortable} silence. Toby looks across at you{not sex:, a little concerned, clearly trying out various responses in his head}.
+The two of you sit next to each other in{room: comfortable} silence. Toby looks across at you{not sex:, a little concerned, clearly trying out various responses in his head}.
 {sex == false and room == false: ->afterdark} {sex == true: ->postcoit|->two}
 
 =postcoit
@@ -11,8 +11,8 @@ The two of you sit next to each other in{room:  comfortable} silence. Toby looks
     He swallows nervously. "I, uh...I nearly cried when I came. I just never thought-"
     He stops, his words catching in his throat. He takes a deep breath.
     "Yep."
-+ "I...need some time to think about it."
- He nods. "Sure. No skin off my nose."
++ (time)"I...need some time to think about it."
+ He nods. "Sure. No skin off my nose. I hope you're ok".
 
 - ->two
 
@@ -25,10 +25,13 @@ He puts his hand next to yours.
 
 - More silence.
 
-"I had a really nice time tonight." He says, after a while. "{sex == false:Don't worry about the sex. I don't mean the sex.| Not just the sex, mind.}"
+"I had a really nice time tonight." He says, after a while.
+{not postcoit.time:
 
-{sex: "And the sex was great. That's a weight off my mind. Just knowing I can do it with a cis guy now. Obviously, I like you a lot, but this has also been a very useful experience for me on a practical level. Getting over the first-time nerves. Is that selfish? I tried to fuck you in an un-selfish way. At the very least. Well, whatever happened, I think we both enjoyed it a lot. That's something, right?" <br> He grins at you.}
-
+    "{sex == false:Don't worry about the sex. I don't mean the sex.|Not just the sex, mind.}"
+    
+    {sex: "And the sex was great. That's a weight off my mind. Just knowing I can do it with a cis guy now. Obviously, I like you a lot, but this has also been a very useful experience for me on a practical level. Getting over the first-time nerves. Is that selfish? I tried to fuck you in an un-selfish way. At the very least. Well, whatever happened, I think we both enjoyed it. That's something, right?" <br> He grins at you.}
+}
 + He sighs, happily.->three
 
 =three
@@ -75,6 +78,10 @@ Another silence.
     
     "Well...I can't tell you why you asked them. I guess the best I can offer is that you either like me, and you're just a bit overwhelmed, which is okay, I wouldn't be offended by that...or, you wanted to satisfy your curiosity, at the expense of my privacy. And my feelings."
     
+    He looks at you.
+    
+    "And...Those two options are the only things in my imagination. Maybe it's something else. But, I'm just trying not to overthink this."
+    
     He looks at the carpet. Another long silence.
     
     "Look, when you've figured it out, just...let me know."
@@ -84,15 +91,15 @@ Another silence.
     "God, I'm exhausted. I hope you're doing ok."
     
     ++ "You...didn't tell me to stop asking questions."->questions
-    ++ "Ok. I think I like you in some way, but I'm not sure what that is yet.->after_glow.two
+    ++ "Ok. I think I like you in some way, but I'm not sure what that is yet."->after_glow.two
     ++ "I'm going to go away and think about this."->go_away
     
 ===questions
     He nods, and grits his teeth.
 
-    "Yeah. I didn't. I thought it was part of it. When you're asking a person...very intimate and really quite invasive questions about how they have sex, it sends a certain message."
+    "Yeah. I didn't. I thought... It was part of it. When you're asking a person... Very intimate and really quite invasive questions about how they have sex, it sends a certain message."
     
-    ++ He clasps his hands.->two
+    + He clasps his hands.->two
     
 =two
 <br>
@@ -105,7 +112,7 @@ Another silence.
     
     His voice sounds tightly coiled.
     
-    "I think, if I was also cis, you would realise that you actually can't just ask a person a bunch of sexual questions like that, and then act like the other person is being completely unreasonable by assuming you had a sexual reason for doing so."
+    "I think, if I was cis, you would realise that you actually can't just ask a person a bunch of sexual questions like that, and then act like the other person is being completely unreasonable by assuming you had a sexual reason for doing so."
     
     + He grabs his head in frustration.->four
 =four

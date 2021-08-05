@@ -6,52 +6,63 @@ The kettle drones. There's a games console under the TV, and a half-finished kni
 
 "First question."
 
-+ "Are you gay? Do you call yourself that? Is that how it works? Sorry."->g_s
-+ "Do you use a- God, is it ok to call it a dil-"->g_j
+* "Are you gay? Do you call yourself that? Is that how it works? Sorry."->g_s
+* "Do you use a- God, is it ok to call it a dil-"->g_j
 
 ===g_j
 <br>
 
-"-Some people call it a dildo. I call mine 'my prosthetic'. For me, that feels like a more accurate way to describe it. I'm wearing it right now."
+"-Some people call it a dildo. I call mine 'my prosthetic'. For me, that feels like a more accurate way to describe it. Or, 'my cock'. I'm wearing it right now."
 
 He smiles.
 
-"It's an everyday piece of equipment for me, like my binder, or my underwear. I feel weird without it. And, although it hasn't happened yet, it's nice to know that, should it happen, I could...react like any other guy."
+"It's an everyday piece of equipment for me, like my binder, or my underwear. Or your own cock, to you. I feel weird going around without it."
 
-+ He looks at you, and then laughs at himself.->two
++ He blows on his coffee, and seems to lose himself in a thought.->one 
+=one
+<br>
+"And... Although I haven't had the opportunity to bend a guy over and firmly give it to him... It's nice to know that, should the opportunity present itself, at short notice, I could react accordingly."
+
++ He looks at you, and then laughs at your expression.->two
 
 =two
 <br>
 "God, it's all so much easier than it was before. It's so much less...scary, and nauseating, and fraught. I finally understand it. Jesus."
 
-+ {not j_s} "You talked about how relationships are more difficult now, but, you seem a lot happier than you were before."->j_s
-+ {not j_g} "So. Sex is not necessarily difficult. Then, how do you feel about your own...genitals?"->j_g
-+ ->fallback_to_me
+* {not j_s} "You talked about how relationships are more difficult now, but, you seem a lot happier than you were before."->j_s
+* {not j_g} "So. Sex is not necessarily difficult. Then, how do you feel about your own...genitals?"->j_g
+* ->fallback_to_me
 
 ===g_s
 <br>
 He takes a sip of coffee, and nods patiently, like he's explaining Microsoft Word to an elderly relative.
 
-"Yes, yes, that's what we call it. On account of me, being a man, and liking men. Don't worry, I'm not offended. I can...tell that you mean the same thing as what I'm thinking. Even if you had the wrong words. And, believe me,"
+"Yes, yes, that's what we call it. On account of me, being a man, and liking men, and fucking men. Don't worry, I'm not offended. I can...tell that you mean the same thing as what I'm thinking. Even if you had all of the wrong words."
 
-He shoots you a look.
-
-"...I can tell when someone has it twisted."
-
-+ {not s_j} "Are you...making fun of me?"->s_j
-+ ->fallback_to_me
+* {not s_j} "Are you...making fun of me?"->s_j
+* ->fallback_to_me
 
 ===j_s
 <br>
 He tilts his head on one side, figuring out how to phrase something.
 
-"I just feel like...I know who I am now. I don't have to play this character who likes having sex in that specific way. Before I transitioned...There was a line from a song, that always stuck in my head, and I thought 'yeah, that's how it feels': 'When I make love it won't be me'. And, given the context of the song..."
+"I just feel like...I know who I am now. I don't have to play this character who likes having sex in that specific way. Before I transitioned...There was a line from a song,
+
++ He pauses to recall it.->one
+
+=one
+<br>
+"'I will not cry, I will not think...when I make love, it won't be me'."
+
+He nods.
+
+"That always stuck in my head, and I thought 'Yep, this is what sex is, and I hate it'. And, given the context of the song..."
 
 + He falls quiet. He seems embarrassed. Or upset. Closed off. He takes another sip.->two
 
 =two
 <br>
-"...Yeah."
+"...Yeah. Not great."
 
 He takes a breath, and exhales slowly. Then, he shakes it off, and smiles at you. 
 
@@ -61,32 +72,34 @@ He makes a fist and knocks it on your knee.
 
 "I'm here."
 
+He bounces back. Or, seems to.
 
-+ {not s_j} "I know you said this was ok, but, am I asking too many questions?"->s_j
-+ ->fallback_to_me
-
+* {not s_j} "It's ok for me to keep asking questions, right?"->s_j
+* ->fallback_to_me
 
 ===j_g
 <br>
-"My genitals are great. I mean, they work. They make me feel pretty good. What's not to like?"
+"My bits are great. I mean, they work, they make me feel fantastic. What's not to like?"
 
-He shrugs.
+He shrugs and holds his hands up.
 
 "You people expect us all to say 'Oh god, the pain', and yeah, like I fucking hate my chest. But my dick?"
 
-+ He looks right at you and grins at your expression.->two
++ He looks right at you and grins at the look on your face.->two
 
 =two
 <br>
-"Yeah. I call it my dick, because it's made of the same stuff as yours, just smaller. Look it up. It's grown a little bit since I started testosterone. That was actually one of the first things that happened. 
+"Yeah. I call it my dick, because it's made of the same stuff as yours, just smaller. Look it up. It's grown a little bit since I started testosterone. That was actually one of the first things that happened. Can't exactly make a Facebook post about that though."
 
-He pulls one knee up to his chest.
++ He pulls one knee up to his chest.->three
 
+=three
+<br>
 "You don't hear much about them online or in the media. Everyone's too interested in phalloplasty or whatever. Which is valid. I, on the other hand, have... options. Which is fun."
 
-+ {not g_j} "By 'options', you're talking about-" ->g_j
-+ {not g_s} "And...am I right in thinking that you call yourself...'gay'?...?"->g_s
-+ ->fallback_to_me
+* {not g_j} "By 'options', you're talking about-" ->g_j
+* {not g_s} "And...am I right in thinking that you call yourself...'gay'?...?"->g_s
+* ->fallback_to_me
 
 //===s_g
 
@@ -97,9 +110,9 @@ He looks at you, and relaxation washes over his face. He smiles.
 
 "Everything's fine. I'm enjoying this. A lot. I thought it would feel invasive, but...I can tell that you're actually interested."
 
-+ {not j_g} "Um, yes...Look, lf you're ok talking about it, is it ok if I ask about your, er, your existing-"->j_g
-+ {not j_s} "Oh. I suppose I am. Ha. I'm glad you feel you can be so open about it."->j_s
-
+* {not j_g} "Um, yes...Look, lf you're ok talking about it, is it ok if I ask about your, er, your existing-"->j_g
+* {not j_s} "Oh. I suppose I am. Ha. I'm glad you feel you can be so open about it."->j_s
++ ->fallback_to_me
 
 ===fallback_to_me
 

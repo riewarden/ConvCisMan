@@ -1,6 +1,8 @@
 INCLUDE thehouse
 INCLUDE ending
 INCLUDE sexscenes
+INCLUDE stayoutside
+
 
 VAR sex = true
 
@@ -12,10 +14,9 @@ Please note, while this game is 100% text based, the topics it discusses makes i
 
 Content warnings: sexually explicit scenes, internalised transphobia, brief mention of implied sexual assault, dominant/submissive dynamics
 
-+ Play the game.->start_real
++ [Play the game.]->start_real
 
 ===start_real
-<br>
 You and Toby got the same bus back from life drawing, this evening. 
 
 The two of you live in the same suburb but in different areas. Usually, you get off the bus, walk to the end of the road, and part ways. It's late, but you can tell he's trying to delay the end of the conversation. 
@@ -217,23 +218,40 @@ He looks up at you again.
 "Do I know what you're going to ask? Go on. You're allowed to."
 
 + "How...er...how do you have...those kinds of relations...with, er, people?...Er, intimately...you... don't- you don't have to answer. It's fine. It's cool."->explicit
++ "I'm not going to ask you how you have sex.->sexnegotiate
 
 ===explicit
 <br>
-He pauses, for a long time. You start to wonder if he was deliberately trying to get you to ask, to stunningly knock you back. then, you realise that he's trying not to laugh. Then he looks around, conspiratorially.
+He pauses, for a long time. You start to wonder if he was deliberately trying to get you to ask, to stunningly knock you back. 
 
-"I mean, I'm not going to discuss it out here. But you can come in for a coffee."
+Then, you realise that he's trying not to laugh. 
+
+Then he looks around, conspiratorially.
+
+"I mean, I'm not going to discuss it out here. But... you can come in for a coffee. And then, I can tell you all about how I like to have sex. How does that sound to you?"
 
 + "...Sure."->house
++ "No thanks."->leavehouse
 
+===sexnegotiate
+He shrugs.
 
+"I only offer, because I'm feeling in the mood for it tonight."
 
+He smirks at you.
 
+"And, you seem to be a very eager listener. Right now, I would feel comfortable talking to you about this kind of thing, because you seem trustworthy. But, it's no issue."
 
++ "I appreciate that. I really wasn't going to ask though."->leavehouse
++ "Ok. It's...Ok for me to ask, then? About it?"->two
 
+=two
+He cocks his head at you.
 
+"Do you want to ask? You don't have to. But I'm not going to talk about it out here."
 
-
++ "Sure. Sure, I'll go in."->house
++ "No, I don't think so."->leavehouse
 
 
 
