@@ -27,7 +27,7 @@ He puts his hand next to yours.
 
 "I had a really nice time tonight." He says, after a while. "{sex == false:Don't worry about the sex. I don't mean the sex.| Not just the sex, mind.}"
 
-{sex: "And the sex was great. That's a weight off my mind. Just knowing I can do it with a cis guy now. Obviously, I like you a lot, but this has also been very useful experience for me on a practical level. Getting over the first-time nerves. Is that selfish? I tried to fuck you in an un-selfish way. At the very least. Well, whatever happened, I think we both enjoyed it a lot. That's something, right?" <br> He grins at you.}
+{sex: "And the sex was great. That's a weight off my mind. Just knowing I can do it with a cis guy now. Obviously, I like you a lot, but this has also been a very useful experience for me on a practical level. Getting over the first-time nerves. Is that selfish? I tried to fuck you in an un-selfish way. At the very least. Well, whatever happened, I think we both enjoyed it a lot. That's something, right?" <br> He grins at you.}
 
 + He sighs, happily.->three
 

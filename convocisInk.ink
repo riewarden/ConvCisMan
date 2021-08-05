@@ -15,6 +15,7 @@ Content warnings: sexually explicit scenes, internalised transphobia, brief ment
 + Play the game.->start_real
 
 ===start_real
+<br>
 You and Toby got the same bus back from life drawing, this evening. 
 
 The two of you live in the same suburb but in different areas. Usually, you get off the bus, walk to the end of the road, and part ways. It's late, but you can tell he's trying to delay the end of the conversation. 
