@@ -46,7 +46,7 @@ He takes a sip of coffee, and nods patiently, like he's explaining Microsoft Wor
 <br>
 He tilts his head on one side, figuring out how to phrase something.
 
-"I just feel like...I know who I am now. I don't have to play this character who likes having sex in that specific way. Before I transitioned...There was a line from a song,
+"I just feel like...I know who I am now. I don't have to play this character who likes having sex in that specific way. Before I transitioned...There was a line from a song..."
 
 + He pauses to recall it.->one
 
@@ -58,7 +58,8 @@ He nods.
 
 "That always stuck in my head, and I thought 'Yep, this is what sex is, and I hate it'. And, given the context of the song..."
 
-+ He falls quiet. He seems embarrassed. Or upset. Closed off. He takes another sip.->two
+He falls quiet. He seems embarrassed. Or upset. Closed off. 
++ He takes another sip.->two
 
 =two
 <br>
@@ -83,7 +84,7 @@ He bounces back. Or, seems to.
 
 He shrugs and holds his hands up.
 
-"You people expect us all to say 'Oh god, the pain', and yeah, like I fucking hate my chest. But my dick?"
+"You people. You expect us all to say 'Oh god, the pain', and yeah, like I fucking hate my chest. But my dick?"
 
 + He looks right at you and grins at the look on your face.->two
 
@@ -95,7 +96,7 @@ He shrugs and holds his hands up.
 
 =three
 <br>
-"You don't hear much about them online or in the media. Everyone's too interested in phalloplasty or whatever. Which is valid. I, on the other hand, have... options. Which is fun."
+"You don't hear much about t-dicks online, or in the media. Everyone's too interested in phalloplasty or whatever. Which is valid. I, on the other hand, have... options. Which is fun."
 
 * {not g_j} "By 'options', you're talking about-" ->g_j
 * {not g_s} "And...am I right in thinking that you call yourself...'gay'?...?"->g_s

@@ -1,5 +1,3 @@
-=== function came_from(-> x) 
-	~ return TURNS_SINCE(x) == 0
 
 ===to_me
 <br>
@@ -35,6 +33,11 @@ He leans in.
 "This is going to be super awkward down here. And I have like, none of my stuff. Let's go upstairs, huh?"
 
 + He holds out his hand, and leads you to his room.->room
++ "Stop. I'm not okay with this."
+    He stops, and leans back.
+    "Sure. Ok. Not a problem."
+    ~sex = false 
+    ->after_glow
 
 ===room
 <br>
@@ -45,8 +48,8 @@ Inside, there are boxes of books on the floor, along with an easel, crammed up n
     "Fuck, I want to leave your chest covered in marks. Don't take the whole thing off. You look lovely, like that."
 + (shirton) Take out your cock, and stroke it.
     He smiles.
-    "God, you look so hot. You're so fucking nervous, but now we're finally on the same page, you're bold all of a sudden. How long have you been thinking about this, you filthy sexy pervert? Am I going to have to teach you a lesson?"
-- You watch as he pulls out his prosthetic cock, and runs his fist up and down a couple of times. His hips jerk involuntarily a few times, then he gestures for you to come closer.
+    "God, you look so hot. You're so fucking nervous, but now we're finally on the same page, you're bold all of a sudden. How long have you been thinking about this, you filthy pervert? Am I going to have to teach you a lesson?"
+- You watch as he pulls out his prosthetic cock, and runs his fist up and down a couple of times. His hips jerk involuntarily, then he gestures for you to come closer.
 "Put your hand on my cock."
 + You reach out, and he puts a gentle hand on yours.
 - "My cock- my prosthetic- it only holds in place, if I keep my pants on. But that's not going to stop me fucking you senseless."
@@ -97,28 +100,36 @@ You feel his hands on your ass, and he starts to work you, with his lubed finger
 
 "Asking all those questions? What, are you too scared to tell me what you want? What are you going to give me, to say sorry?"
 
-+ (master) "I'll call you 'Master'."
-    "Oh. I like that."
-    He strokes your hair.
-    "You're going to be a good boy, for your Master. That's right." 
-    His grip tightens.
-    Now, I want to hear you say it."
-    ++ "Fuck me, Master."->sink
-
-+ (beg) "I'll beg for your cock."
-    "What a good idea. Now, do you want my cock?"
-    ++ "Yes. Please."
-    He presses it at your entrance. "I don't believe you."
-    +++ "I fucking need it."
-    He rubs his shaft against you.
-    ++++ "Christ. Please."
-    "Ah- ah! Statement." His hand roams over your thigh, and starts squeezing your balls.
-    +++++ "This is f-fucking agony."
-    "Stop stating the fucking obvious, and tell me what you want."
-    ++++++ "Fuck you... 'Need your cock inside me."
-    "That's it, you're really needy now. I want to hear what you want."
-    +++++++ "Please, please, fuck me, like I'm good for nothing else!"
-        "Oh. Fuck yes, that's excellent. ->sink
++ (master) "I'll call you 'Master'."->mastering
++ (beg) "I'll beg for your cock."->begging
+    
+=mastering
+"Oh. I like that."
+He strokes your hair.
+"You're going to be a good boy, for your Master, so that I can fuck you nice and hard. That's right." 
+His grip tightens.
+"Now, what are you?"
++ "A good boy."
+- "My good boy. And, who am I?"
++ "My Master."
+- "Yes, very good. And, why are you humilliating yourself like this?"
++ "Because I want you to fuck me, Master."->sink
+   
+=begging
+<br>
+ "What a good idea. Now, do you <i>really</i> want my cock?"
++ "Yes. Please."
+- He presses it at your entrance. "I don't believe you."
++ "I fucking need it."
+- He rubs his shaft against you.
++ "Christ. Please."
+- "Ah- ah! Statement." His hand roams over your thigh, and starts squeezing your balls.
++ "Oh my God, this- this is agony-"
+- "Stop stating the fucking obvious, and tell me what you want."
++ "Fuck you... 'Need your cock inside me."
+- "That's it, you're really needy now. I want to hear what you want."
++ "Please, please, just fuck me, like I'm good for nothing else!"
+    "Oh. Fuck yes, that's excellent. ->sink      
 
 =sink
 <br>
@@ -163,11 +174,11 @@ As his fingers patiently move downwards through the buttons, he moves to your co
 <br>
 - Holding your cock aside, he kisses the sensitive skin right at the top of your inner thighs.
 
-"Touch yourself for me. Hang on." He murmurs, and moves to the nightstand to retrieve some lube.
+"Hang on." He murmurs, and moves to the nightstand to retrieve some lube.
 
-He returns with lube, and leans over to squirt some into your hand.
++ He returns with lube, and leans over to squirt some into your hand.
 
-"If you want to get yourself ready."
+- "If you want to get yourself ready."
 
 In his other hand, he has a syringe-looking instrument. He smiles reassuringly, and gestures with it.
 
@@ -196,13 +207,18 @@ He nods, gives you a moment to get into a comfortable place, and positions himse
 
 "Hold my hand. Squeeze it when you want me to push in."
 
-He fucks you slowly, you hear his breathing become deep, and restrained. His cock grazes your g-spot, making you shudder, and reel back, and he seizes on your throat with a kiss.
+He fucks you slowly, you hear his breathing become deep, and restrained. His cock grazes your g-spot, making you shudder, and reel back. 
 
-After a while, he changes pace. It's still exquisitely, almost painfully slow, but he snaps his hips a little harder, to make you keen, and yelp with need. Every hit is breathtaking, and infuriatingly just not quite enough. It's agony.
++ He seizes on your throat with a kiss.
 
-"God, you take my cock so well." He murmurs. "Fuck, you're good. You're so perfect like this. Christ."
+- After a while, he changes pace. It's still exquisitely, painfully slow, but he snaps his hips a little harder, to make you keen, and yelp with need. Every hit is breathtaking, and infuriatingly just not <i>quite</i> enough. It's agony.
 
-He threads his fingers in your hair, and with every thrust, he watches your expression.
++ Wrap your legs around his hips.
+    He feels you pulling him down, and leans forward, to fuck you deeper.
++ Clutch the bedsheets with your fists
+    He sees the muscles in your arms tense, and he dips down to kiss your neck.
+- "God, you take my cock so well." He murmurs. "Fuck, you're good. You're so perfect like this. Christ."
+He puts a hand on your stomach to hold you in place, and with the other hand, he threads his fingers in your hair. With every thrust, he watches your expression.
 
 + "That's it. You're close, aren't you?"
 - 
@@ -210,7 +226,7 @@ He threads his fingers in your hair, and with every thrust, he watches your expr
 -
 + "God- Yes-! I'm going to cum on you. You'll look so good, dripping with my cum."
  
-    Finally, at long last, your release hits. It leaves your whole body aching, and while your muscles are rigid, Toby pulls out, as smoothly as he's able, and positions his hand near the top of his cock. He grunts, then gasps, releasing on your chest. He moans, shudderingly, and stares down at you. 
+    Finally, at long last, your release hits, and you cry out. It leaves your whole body aching, and while your muscles are rigid, Toby pulls out, as smoothly as he's able, and positions his hand near the top of his cock. He grunts, then gasps, releasing on your chest. He moans, shudderingly, and stares down at you. 
     
 - It's hard to tell if he's in post-orgasm haziness, or... Then, you suddenly remember that he's never done this before. He said that, earlier this evening.
 

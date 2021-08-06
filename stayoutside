@@ -1,6 +1,6 @@
 ===leavehouse
 <br>
-{house: He walks you out to the street.} There's a cool breeze in the air. Not too cold. Toby lingers, again.
+{house: He walks you out to the street.} There's a cool breeze in the air. Toby lingers, again.
 
 + "I need to go."->go_end
 + "...Everything ok?"->everything_ok
