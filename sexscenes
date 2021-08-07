@@ -1,11 +1,20 @@
 
 ===to_me
-<br>
-He looks at you. He makes as if to say something, then pauses. He puts his coffee mug on the table, next to yours, and sits up, looking at you.
-
-"I don't know. I've never done this before. I've thought about it a lot. Not you. Just this."
-
-He leans in.
+{
+-withme:He looks at you. He makes as if to say something else, then pauses. He puts his coffee mug on the table, next to yours, and sits up, looking at you.
+}
+{
+-withme:"I don't know. I've never done this before. I've thought about it a lot. Not you. Just this."
+    ~neverdone = true
+}
+{
+- house.tothepoint:
+He almost chokes on his coffee, and puts it down quickly.
+}
+{
+- house.tothepoint or house.g_j.wantyou: He stares at you for a second, then his face breaks into a grin. He lunges for you, his hands connecting with your hips, and sweeping upward.
+- else: He leans in.
+}
 
 + (kiss) Kiss his lips.
     You meet him halfway, his hand rises to touch the hairs at the nape of your neck.
@@ -22,7 +31,7 @@ He leans in.
 + (pullhair) Pull his hair a little.
     You hear him sigh at the sharpness, and see the muscles in his jaw clench.
 + (pushknee) Push your knee against his crotch.
-    { g_j: 
+    { house.g_j: 
     He rubs against you with his prosthetic. 
     "You've been thinking about me fucking you with this since I explained it to you, right?"
     - else: 
@@ -48,11 +57,11 @@ Inside, there are boxes of books on the floor, along with an easel, crammed up n
     "Fuck, I want to leave your chest covered in marks. Don't take the whole thing off. You look lovely, like that."
 + (shirton) Take out your cock, and stroke it.
     He smiles.
-    "God, you look so hot. You're so fucking nervous, but now we're finally on the same page, you're bold all of a sudden. How long have you been thinking about this, you filthy pervert? Am I going to have to teach you a lesson?"
+    "God, you look so hot. {flirt:You've been laying it on all night, haven't you?|You're so fucking nervous, but now we're finally on the same page, you're bold all of a sudden.} How long have you been thinking about this, you filthy pervert? Am I going to have to teach you a lesson?"
 - You watch as he pulls out his prosthetic cock, and runs his fist up and down a couple of times. His hips jerk involuntarily, then he gestures for you to come closer.
 "Put your hand on my cock."
 + You reach out, and he puts a gentle hand on yours.
-- "My cock- my prosthetic- it only holds in place, if I keep my pants on. But that's not going to stop me fucking you senseless."
+- "My cock- my prosthetic- it only holds in place, if I keep my pants on. {flirt:But that's not going to stop me fucking you senseless.}"
 He guides your hand round the side of the cock, and you feel a small bump beneath the surface.
 "Yeah. There it is. Press that."
 
@@ -62,12 +71,13 @@ He guides your hand round the side of the cock, and you feel a small bump beneat
 Then, his head tilts forward to look at you again. He cups his hand around your jaw, and strokes your cheekbone.
 "Tell me how you want me to fuck you."
 
-+ "Fuck me hard."->hard
-+ "Fuck me gently."->gently
++ "Fuck me hard."
+->hard
++ "Fuck me gently."
+->gently
 
 ===hard
-<br>
-He nods, as if he's planning something out, then <>
+He nods,{flirt: shaking his head in mock pity at you, for being so painfully predictable. T| as if he's planning something out, t}hen, <>
 {
 - room.shirtoff: he roughly pulls your open shirt off your body, and kisses your neck, with teeth, grabbing your hips, and steering you towards the bed. 
 "I want to make good on my promise of leaving marks on this fucking excellent body."
@@ -96,7 +106,7 @@ He drops the lube bottle, softens a little, and tilts his head at you.
 <br>
 "Good. Now get on your knees, so I can fuck you."
 
-You feel his hands on your ass, and he starts to work you, with his lubed fingers. Soon, your hole is slick and desperate for his cock. You feel Toby grip your hips from underneath, then his cock, teasing at your entrance. 
+You feel his hands on your ass, and he starts to work you, with his lubed fingers. Soon, your hole is slick and desperate for his cock. You feel him grip your hips from underneath, then his cock, teasing at your entrance. 
 
 "Asking all those questions? What, are you too scared to tell me what you want? What are you going to give me, to say sorry?"
 
@@ -117,7 +127,7 @@ His grip tightens.
    
 =begging
 <br>
- "What a good idea. Now, do you <i>really</i> want my cock?"
+ "What a good idea.{house.g_s.annoying: You're a clumsy, dirty fuck, and you've made it very obvious how desperate you are, but, can you truly sell it for me? We'll see.} Now, do you <i>really</i> want my cock?"
 + "Yes. Please."
 - He presses it at your entrance. "I don't believe you."
 + "I fucking need it."
@@ -149,15 +159,13 @@ Then, he sinks himself into you, to the hilt. He starts fucking you roughly from
 <br>
 - {master:<i>"Yes, Master!"</i><br>}Gasping, with burning spots behind your eyes, you release heavily, over the bedsheets. 
 
-- You hear Toby moan behind you, and suddenly feel a splatter across your back. Toby gasps. You dimly remember him telling you he's never done this before. 
+- You hear Toby moan behind you, and suddenly feel a splatter across your back. Toby gasps. You dimly remember him telling you that he'd never done this before.
 
 So, that's what he was doing with the syringe. So he could...right... 
     
-+ ...Then, you collapse on your front.->after_glow
-
-
++ ...Then, you collapse on your front.
+->after_glow
 ===gently
-<br>
 He nods. There's something breathless about him that starts to slow down. He guides you to sit on the bed, and kneels in front of you. He pulls you in for another kiss.
 {
 - room.shirtoff: His hands roam up your bare skin, under your undone shirt, his fingertips pressing into your back, your sides, your chest.
@@ -198,8 +206,10 @@ He tilts his head, and looks at you.
 
 "Is this what you want?"
 
-+ "Fuck yes."->org
-+ "Actually, I need a moment."->calibrate
++ "Fuck yes."
+->org
++ "Actually, I need a moment."
+->calibrate
 
 =org
 <br>
