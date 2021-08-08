@@ -32,58 +32,68 @@ After a while of talking about nothing, he pauses. It seems like he's about to m
 = w_ld
 He smirks awkwardly.
 
-"You know, I behave differently, even in the most mundane situations. I look back, and, it's like I was creating the shape of a woman, trying to... camp out. Just enjoy myself. But, I...hate camping."
+"You know, I realised the other day that I behave differently, even in the most mundane situations. I look back, and, it's like I was living in my car. It always felt just barely livable to not change anything. And then, I realised that I deserve better."
 
  + He puts his hands in his back jean pockets and leans back slightly.
-- "Now, I still take on masculine postures, and attitudes, I still playact a bit, but it's fun. It's fun to do the stereotypical stuff. Or, subvert that."
+- "Now, I still adopt masculine postures, and attitudes. I still playact being a man, to an extent, but this time, it's fun. It's fun to do the stereotypical 'man' stuff. Or, subvert that."
 
 He grins and looks away.
 
-"Sometimes, I just realise that I'm wearing fucking boring male clothes, like any other man. And it feels so good. It never felt so good to be boring before."
+"Sometimes, I just realise that I'm wearing fucking boring male clothes- like, a blue shirt and jeans- like any other boring man. And it feels <i>so good</i>. It never felt so good to be so boring, before."
 
-+ (differentperson)"You're a different person these days. I like it."
-    ->ld_pf
 + (sameperson)"You seem more like yourself than ever before."
     ->ld_pf
-+ (cantimagine)"I can't imagine what it must have been like to come out."
-    ->ld_co
++ (differentperson)"You're a different person these days. I like it."
+    ->ld_pf
++ (cantimagine)"Does...talking to people feel different?"
+    ->pf_co
 
 =ld_pf
-{came_from(->differentperson):He smiles. "Well. I'm glad to hear it. I like it a lot too."<newline> He tilts his head.|He looks at you, with a restrained expression.}
+{came_from(->differentperson):He smiles. "Well. I'm glad to hear it. I like it a lot too."<newline> He tilts his head.}
 
-"Obviously, you knew me before. So, you possess a certain kind of knowing of me. I don't know you that well... But, you still know something secret about me. And, the knowledge you hold is different than me just...telling someone that I'm trans."
+{came_from(->sameperson):He looks at you, and sighs, but not too coldly.}
 
-{came_from(->differentperson):But, as he speaks, he looks you dead in the eyes, almost... challenging you.}
+"In your case, you knew me before. So, you possess a certain kind of knowing of me. I don't know you that well... But, you still know something secret about me. And, the knowledge you hold is different than me just...telling someone that I'm trans."
+
+{came_from(->differentperson):As he speaks, he looks you dead in the eyes, almost... challenging you.}
+{came_from(->sameperson):He gives you a sad smile.}
 
 + (secret){came_from(->differentperson)}"How do you feel about me, having that kind of secret?"
-+ (strain)"That sounds like it puts a strain on things."
++ (strain){came_from(->sameperson)}"That sounds like it puts a strain on things."
 
-- {secret: "I don't like it. It feels like...decentralised blackmail."<newline>He gives you a cold look.|"All my relationships with cis men have changed, a little bit. I don't think you realise, but even you treat me a tiny bit differently.}
+- {secret:"I don't like it. It feels like...decentralised blackmail."<newline>He gives you a cold look.}
+- {strain:"All my relationships with cis men have changed, a little bit. I don't think you realise, but even you treat me a tiny bit differently."}
 
-{secret:He shuffles his feet|He shrugs}.
+{secret:He shuffles his feet}{strain:He shrugs}.
 
-"{secret:It's like you have a load of private photographs of me. And neither of us can get rid of them.|It's nice. It feels like something has finally progressed for me.}"
+- {secret:"It's like you have a load of private photographs of me. And neither of us can get rid of them."}
+- {strain:"It's nice. It feels like something has finally progressed for me."}
 
-+ {secret}"That...Yeah, that's grim."
++ (grim){secret}"That...Yeah, that's grim."
     He sighs. 
     "It's not your fault. Honestly. I'm just being morbid."
     He exhales.
     ->pf_co
-+ {not secret}"That's nice. I'm glad you can still stay friends with all of us."->pf_co
-+ {not secret}"Was coming out a relief, then?"
-    ->ld_co
-+ (liketalking)"I...do really like talking to you."
++ (feltshit){secret}"Well. Coming out must have felt pretty shitty, then."
+    ->co_ld
++ (stayfriends){strain}"That's nice. I'm glad you can still stay friends with all of us."
+    He nods. 
+    "Yeah. I'm really grateful to everyone who's stuck by me."
+    ->pf_co
++ (feeldiff){strain}"Do you feel different, when you talk to friends?"
+    "Yes. I don't always feel it. But, there are moments when I suddenly notice it, and it knocks me out of joint."
+    ->pf_co
++ (liketalking)"I...do honestly enjoy talking to you."
     He chuckles, a little embarrassed at the attention.
     ->pf_co
-+ {secret}"Well. Coming out must have felt pretty shitty, then."
-    ->ld_co
 
 =pf_co
-"{secret and not liketalking:But...despite that, s|S}ometimes, it's great, talking to people who knew me from before. I feel seen, and that's what I need sometimes. Other times...I don't feel good. Like I'm being forced to remember."
+
+"{came_from(->grim):But...despite that, s|S}ometimes, {feeldiff:those moments are electrifying, and }it's great, talking to people who knew me from before. I feel seen, and that's what I need sometimes. Other times...I don't feel good. {feeldiff:The moments come up like a traumatic flashback. }Like I'm being forced to remember."
 
 + He looks at you, and puts up a hand, reassuringly.
 
--"No-one is forcing me, obviously. Just... I often can't hold a conversation without also remembering every previous conversation I've had. From before, I mean."
+- "No-one is {feeldiff:actually traumatising|forcing} me, obviously. Just... I often can't hold a conversation without also remembering every previous conversation {feeldiff:when I thought I had to pretend to be a girl, and be sexually attractive, as a girl, or I would die|I've had. From before, I mean}."
 
 + {liketalking}"Oh. In that case, should I not...talk to you so much?"
     He smiles.
@@ -91,7 +101,7 @@ He grins and looks away.
 + {liketalking}"Is there anything I can do?"
     He looks away and thinks.
     "I think, just treat me like any other guy. And eventually, I'll get over myself."
-+ {liketalking}"Is there something we could do that would help you forget?"
++ {liketalking and not feeldiff}"Is there something <i>we</i> could do that would help you forget?"
     He looks at you, trying to read your expression.
     "Are you coming on to me?"
     ++ (flirty_forget)"So, what if I am?"->explicit
@@ -99,43 +109,39 @@ He grins and looks away.
         He laughs.
         "Right."
 -
-+ {not co_pf} "Well, the way I feel, from my perspective, nothing's really changed."->co_pf
-+ {not co_ld} "We're all on your side, here. You've got nothing to worry about."->co_ld
-+ {TURNS_SINCE(->w_ld) > 8}"If that's how you feel, would you ever be able to be...close with someone from before?"->d
-+ ->fallback_d
-
-= ld_co
-<br>
-{came_from(->cantimagine):He nods and raises his eyebrows. <newline> "Oh, it was A LOT."<newline> He holds up his hands. <newline>}
-"So, life drawing is so body-centric, right? And, I think I was worried about how everyone would react because of that. I'm not going to model for a while, of course. I mean, I hadn't modelled for...a long time."
-
-He looks at the ground.
-
-"Everyone's been so respectful. Even the older folks. It really surprised me."
-
-+ (modelling){not co_w} "You're not modelling? I'm sorry to hear that."->co_w
-+ ->fallback_d
++ (notsmooth){feeldiff}"I'm sorry to hear the shift hasn't been...smooth."
+    "Well, it was never going to be. The fact that I was surrounded by incredibly supportive people, and it still felt like a fucking nightmare...It was always going to be rough."
+    ->co_pf
++ (donttrauma){feeldiff}"I don't ever want you to feel traumatised. Isn't there anything I can do?"
+    He holds up his hands.
+    "There really isn't anything. And, it's not your responsibility to change that."
+    ->co_pf
++ (thingsdiff){not feeldiff}"Things are different, but you know me and the others are absolutely ok with it."
+"Yeah, and I know that. You all have gone on treating me really normally."
+    ->co_pf
++ (nochange){not feeldiff}"From my perspective, absolutely nothing has changed, not really."
+    He smiles sarcastically.<newline>"So many cis friends have told me, 'It doesn't change anything'.
+    ->co_pf
++ "Did you ever think about just...restarting, somewhere completely new?"
+->pf_ld
 
 =co_pf
-<br>
-He smiles sarcastically.
-
-"So many cis people have told me, 'It doesn't change anything'. Which is relieving, to an extent. It is essentially what I asked people to do."
+ 
+ He puts his head on one side.
+ "{donttrauma:It's a...fucky cognitive dissonace thing that I just have to figure out myself|Which is relieving, to an extent}. I didn't really want anything to change, but at the same time, I did want things to change. Really badly.{notsmooth: That internal conflict just doesn't resolve quietly.}"
 
 + The corners of his mouth cringe a little.
 
-- "And then, my mum, when I first came out, acted like absolutely everything had changed. To try and comfort me. Calling me boy, and son, and lad, every hour of the day. Using dimunitives in a way she never used to. I had to tell her to stop, and I felt really bad. Like I was refusing her gift of acceptance."
+- "And then, my mum, when I first came out, acted like absolutely everything had changed. She was trying to comfort me. Calling me 'boy', and 'son', and 'lad', every hour of the day, in a way she never used to. I had to tell her to stop, and I felt really bad. Like I was refusing her gift of acceptance."
 
 His brow creases.
 
 "So many people get kicked out, ostracised. Abandoned by entire friendship groups. I felt so ungrateful to be living with a mother who tried too hard."
 
-+ {not pf_w} "Is it...different? Talking to- being around women, like, generally?"->pf_w
-+ ->fallback_d
-
++ "Is it...different? Talking to- being around women, like, generally?"
+    ->pf_w
 
 =pf_w
-<br>
  He shakes his head side to side.
  
 "My friendships with women are...really different, but also, basically the same. On the one hand, I still have the same feeling about women as I always did: that I don't understand them. But now that I understand I'm a man, I feel more like I ought to bridge that gap."
@@ -144,10 +150,9 @@ His brow creases.
 
 -"Because I want to be the kind of man who can... understand- empathise! That's a way less patronising word. I feel like if I don't, I'm a lot more capable of...causing harm, as a result, than I was when I thought I was also a woman. I think."
 
-+ {not w_ld} "I mean, you say you don't understand women, but you had all of us fooled." ->w_ld
-+ {not w_pf} "I think you're putting a lot of pressure on yourself. No-one expects you to be a paragon of virtue." ->w_pf
-+ {TURNS_SINCE(->w_ld) >8}"Now that you understand you're a man, does that change your romantic feelings about people?"->d
-+ ->fallback_d
++ ""->pf_ld 
++ ""->pf_ld
++ "Now that you understand you're a man, does that change your romantic feelings about people?"->d
 
 
 
@@ -159,17 +164,15 @@ His brow creases.
 
 - "It can be tough, being around people who know my history. But, the community has got me through this. I can complain a lot about it, but, I can't exist without people who love me, and acknowledge me for who I am."
 
-+ {TURNS_SINCE(->w_ld) >8}"Could you...fall in love with someone who had known you from before?"->d
-+ (cantimagine){not ld_co}"I can't imagine what it was like to come out."->ld_co
++ "Could you...fall in love with someone who had known you from before?"->d
++ ""->
 
 =fallback_d
 + "Could you...fall in love with someone you knew from before?"->d
 
-
-
 =co_w
 <br>
-{came_from(->modelling):He eyes you.->co_w2}
+{came_from(->modelling):He eyes you.}
 
 - (butch)"I've always had a butch body. Masculine presentation. Butch bodies were the first bodies I ever saw that seemed even a bit like mine."
 
@@ -217,6 +220,7 @@ His eyes take on a faraway look.
 + {not pf_ld }"That sounds..draining, to say the least. How come you...put yourself through that? With everyone at the class?"->pf_ld
 + {TURNS_SINCE(->w_ld) >8}"Do you think you'd be able to trust a cis partner?"->d
 + ->fallback_d
+
 =co_ld
 <br>
 He laughs nervously.
@@ -235,7 +239,7 @@ He laughs nervously.
 
 - "God. I sound completely insane. But that's also exactly what I mean."
 
-+ {not ld_co} "Is that why you've stuck to drawing, recently?"->ld_co
++ "Is that why you've stuck to drawing, recently?"
 + {not ld_pf}"Hey, it's alright. No-one at the class has it in for you. I don't really know you that well, but I'd definitely stick up for you."->ld_pf
 + {TURNS_SINCE(->w_ld) >8}"I don't think you sound insane. It must make dating really difficult."->d
 + ->fallback_d
