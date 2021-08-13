@@ -25,12 +25,12 @@ He puts his hand next to yours.
 
 - More silence.
 
-"I had a really nice time tonight." He says, after a while.
+"I had a really nice time tonight." He says, after a while. <>
 {not postcoit.time:
 
     "{sex == false:Don't worry about the sex. I don't mean the sex.|Not just the sex, mind.}"
     
-    {sex: "And the sex was great. That's a weight off my mind. Just knowing I can do it with a cis guy now. Obviously, I like you a lot, but this has also been a very useful experience for me on a practical level. Getting over the first-time nerves. Is that selfish? I tried to fuck you in an un-selfish way. At the very least. Well, whatever happened, I think we both enjoyed it. That's something, right?" <br> He grins at you.}
+    {sex:A short silence, then he blurts out:<br><br>"And the sex was great! That's a weight off my mind. Just knowing I can do it with a cis guy now. Obviously, I like you a lot, but this has also been a very useful experience for me on a practical level. Getting over the first-time nerves. Is that selfish? I tried to fuck you in an un-selfish way. At the very least. Well, whatever happened, I think we both enjoyed it. That's something, right?" <br><br> He grins at you.}
 }
 + He sighs, happily.->three
 
@@ -50,13 +50,13 @@ He looks at you with a deep fondness.
 
 =threepoint
 
-"So much of the time, I feel like I'm not supposed to even talk about what sex means to me. But, you made me feel really special, and made me feel like, it is ok. And, I can carry that with me now. I thought the sex was the most important part but I think, it was just nice to be reminded I can talk about things and just...be listened to."
+"So much of the time, I feel like I'm not supposed to even talk about what sex means to me. But, you made me feel really special, and made me feel like, it is ok. And, I can carry that with me now. I thought the sex was the most important part, but, I think, it was just nice to be reminded I can talk about things and...be listened to."
 
 + He strokes your hair, and looks into your eyes.->four
 
 =four
 <br>
-"I only hope I did something similar for you."
+"This was nice. I hope it was for you, too."
 
 ->END
 

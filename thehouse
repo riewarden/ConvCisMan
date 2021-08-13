@@ -17,7 +17,7 @@ The kettle drones. There's a games console under the TV, and a half-finished kni
 =g_s
 He takes a sip of coffee, and nods patiently, like he's explaining Microsoft Word to an elderly relative.
 
-"Yes, yes, that's what we call it. On account of me, being a man, and liking men, and fucking men. {flirt:You're not as bright as I gave you credit for, are you? Imagine getting this far, and only asking now if I would actually fuck you. You must be desperate.|Don't worry, I'm not offended. I can...tell that you mean the same thing as what I'm thinking. Even if you had all of the wrong words."}
+"Yes, yes, that's what we call it. On account of me, being a man, and liking men, and fucking men. {flirt:You're not as bright as I gave you credit for, are you? Imagine getting this far, and only asking now if I would actually fuck you. You must be desperate.|Don't worry, I'm not offended. I can...tell that you mean the same thing as what I'm thinking. Even if you had all of the wrong words.}"
 
 * (makingfun)"Are you...making fun of me?"->s_j
 * (annoying){flirt}"You're annoyingly attractive when you're taking the piss."->s_j
@@ -27,7 +27,7 @@ He takes a sip of coffee, and nods patiently, like he's explaining Microsoft Wor
 {
 -allwrong:He grins at you.
 "Of course you aren't. You're trying so hard, and it's adorable."
--annoying:He takes a sip of coffee, and looks at you over the top of it. Then, he sets it down
+-annoying:He takes a sip of coffee, and looks at you over the top of it. Then, he sets it down.
 "Oh, I can do much, much worse than this. And, I think you'd fall over yourself for it."
 -makingfun:He looks around, as if there was someone else to accuse of making fun of you.
 "Me? Yes!"
@@ -79,7 +79,7 @@ He takes a breath, and exhales slowly. Then, he shakes it off, and smiles at you
 "Hey. It's okay. I'm discovering that I quite enjoy explaining things to you."
 He sits back.
 }{usedick:He smiles. "Like this.|"Well, my dick is what I call...this part of me.}" {usedick:He puts his hand down his trousers, and you see his hand moving, slowly, but not around the outline of his cock.|He points to his crotch. "Like, the actual part of my anatomy."}
-{usedick:He sighs, but continues talking, as if he's not doing it. "|"Talking about, and using, my dick, isn't a problem for me.} My bits, in general, are great. I mean, they work, they make me feel{usedick:-ah-} fantastic{usedick:..}. What's not to like?"
+{usedick:He sighs, but continues talking, as if he's not doing it. <br>"|"Talking about, and using, my dick, isn't a problem for me. }My bits, in general, are great. I mean, they work, they make me feel{usedick: -ah...} fantastic{usedick:..}. What's not to like?"
 
 He {usedick:tips his head back. He lets his mouth fall open for a second, before continuing|folds his arms and shakes his head}.
 
@@ -109,7 +109,7 @@ He smiles.
 + He blows on his coffee, and seems to lose himself in a thought{flirt:, stroking his cock absentmindedly}.
 
 - "And...<>{
-- flirt: I've not used it on another person yet. Only for myself. I'll touch my dick for a while, and get myself nice and wet, on my own precum. Then, I put it in position, and turn on the vibe. Then, I can rub it, and feel it on my dick. Now that feels excellent by itself. But then, I start thinking about fucking a guy. {annoying:You said earlier that I was attractive when I was taking the piss. Well. I think I could be even more attractive if I had someone begging for my cock while I was humiliating them.|Giving him my cock, while he writhes and moans for me.}"
+- flirt: I've not used it on another person yet. Only for myself. I'll touch my dick for a while, and get myself nice and wet, on my own precum. Then, I put it in position, and turn on the vibe. Then, I can rub it, and feel it on my dick. Now that feels excellent by itself. But then, I start thinking about fucking a guy.{annoying:"<br><br>He looks at you intently.<br><br>"You said, earlier, that I'm attractive when I take the piss. Well. I think I could be even more attractive if I had someone begging for my cock while I was humiliating them.|Giving him my cock, while he writhes and moans for me.}"
 - else:Although I haven't had the opportunity to bend a guy over and firmly give it to him... It's nice to know that, should the opportunity present itself, at short notice, I could react accordingly."
 }
 + He looks at you, and then laughs darkly at your expression.
@@ -117,8 +117,8 @@ He smiles.
 - "<>{
 - flirt:Do you want to say something?
 He's sat close to you. His lips are slightly open. {usedick:His hand, that was touching his dick earlier, is clenching and unclenching.|} 
-- else: God, it's all so much easier than it was before.<>
-}"
+- else: God, it's all so much easier than it was before."<>
+}
 He's looking into your eyes.
 + {not flirt}"How...would you have sex with me? Or, someone...like me?"->to_me
     {~withme = true}

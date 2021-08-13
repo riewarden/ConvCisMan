@@ -12,13 +12,13 @@
 He almost chokes on his coffee, and puts it down quickly.
 }
 {
-- house.tothepoint or house.g_j.wantyou: He stares at you for a second, then his face breaks into a grin. He lunges for you, his hands connecting with your hips, and sweeping upward.
+- house.tothepoint or house.g_j.wantyou: He stares at you for a second, then his face breaks into a grin. He lunges for you, his hands connecting with your hips, and sweeping upwards, over your ribs.
 - else: He leans in.
 }
 
-+ (kiss) Kiss his lips.
++ (kiss) [Kiss his lips.]
     You meet him halfway, his hand rises to touch the hairs at the nape of your neck.
-+ (neck) Let him kiss your neck.
++ (neck) [Let him kiss your neck.]
     You tilt your head back. He accepts, you feel his lips and teeth marking you.
 + "Stop. I'm not okay with this."
     He stops, and leans back.
@@ -28,9 +28,9 @@ He almost chokes on his coffee, and puts it down quickly.
 
 - He shifts forward, pushing you back onto the armrest.
 
-+ (pullhair) Pull his hair a little.
++ (pullhair) [Pull his hair a little.]
     You hear him sigh at the sharpness, and see the muscles in his jaw clench.
-+ (pushknee) Push your knee against his crotch.
++ (pushknee) [Push your knee against his crotch.]
     { house.g_j: 
     He rubs against you with his prosthetic. 
     "You've been thinking about me fucking you with this since I explained it to you, right?"
@@ -52,10 +52,10 @@ He almost chokes on his coffee, and puts it down quickly.
 <br>
 Inside, there are boxes of books on the floor, along with an easel, crammed up next to a desk, covered in parchment. He leans over and turns the desk lamp on.
 "-So that it's kind of moody, but you also won't trip and break your neck-" He explains, before attending once more to his jeans.
-+ (shirtoff) Undo your shirt slowly.
++ (shirtoff) [Undo your shirt slowly.]
     He watches you, fumbling with a button repeatedly, not wanting to drag his eyes away.
     "Fuck, I want to leave your chest covered in marks. Don't take the whole thing off. You look lovely, like that."
-+ (shirton) Take out your cock, and stroke it.
++ (shirton) [Take out your cock, and stroke it.]
     He smiles.
     "God, you look so hot. {flirt:You've been laying it on all night, haven't you?|You're so fucking nervous, but now we're finally on the same page, you're bold all of a sudden.} How long have you been thinking about this, you filthy pervert? Am I going to have to teach you a lesson?"
 - You watch as he pulls out his prosthetic cock, and runs his fist up and down a couple of times. His hips jerk involuntarily, then he gestures for you to come closer.
@@ -135,7 +135,7 @@ His grip tightens.
 + "Christ. Please."
 - "Ah- ah! Statement." His hand roams over your thigh, and starts squeezing your balls.
 + "Oh my God, this- this is agony-"
-- "Stop stating the fucking obvious, and tell me what you want."
+- "Stop stating the <i>fucking</i> obvious, and tell me what you want."
 + "Fuck you... 'Need your cock inside me."
 - "That's it, you're really needy now. I want to hear what you want."
 + "Please, please, just fuck me, like I'm good for nothing else!"
@@ -146,9 +146,9 @@ His grip tightens.
 Then, he sinks himself into you, to the hilt. He starts fucking you roughly from behind. {room.shirtoff: Every so often, you feel a twinge of pain, as he leaves hickies, all over your back.}
 
 + Once he finds a rhythm, he starts to pump your cock with every thrust.
-- His other hand grips your hair. When your thighs are shaking, and desperate noises spill from your mouth, he grips your cock.
+- His other hand grips your hair. When your thighs are shaking, and desperate noises spill from your mouth, he grips your cock. The only think you can process is his voice, and his thrusts.
 
-+ "You're going to cum{master: for your Master, and be my willing servant}{beg:, because you've been desperate for my cock since you arrived}."
++ He says, "You're going to cum{master: for your Master, and be my willing servant}{beg:, because you've been desperate for my cock since you arrived}."
 - 
 + "That's right. Moan like a {master:good boy. You're mine, and I want to hear you say it}{beg:whore. The whole street is going to hear what a filthy, needy creature you are}."
 -
