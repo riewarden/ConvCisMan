@@ -1,26 +1,27 @@
 ===leavehouse
-<br>
 {house: He walks you out to the street.} There's a cool breeze in the air. Toby lingers, again.
 
-+ "I need to go."->go_end
-+ "...Everything ok?"->everything_ok
++ "I need to go."
+    ->go_end
++ "...Everything ok?"
+    ->everything_ok
 
 ===everything_ok
-<br>
 He pushes his hands into his pockets, nervously.
 
 "Do you still want to be friends? Still...hang out after the class?"
 
 + "Sure."
     He sighs with relief.
-    "Good. Great. {house: ->sex_debrief}
+    "Good. Great. 
+    {house: ->sex_debrief}
     He scratches his chin.
-    "It was really nice talking to you. I know...I did 90% of the talking...but I needed it, and I appreciate you giving that time and space to me, and for not putting yourself out more than you felt comfortable doing."
+    "It was really nice talking to you. I know...I did 90% of the talking...but I needed it, and I appreciate you giving that time and space to me, and for not putting yourself out more than you felt comfortable doing."->go_end
     
-+ "I need to think about it. I hope you understand."->go_end
++ "I need to think about it. I hope you understand."
+    ->go_end
 
 ===go_end
-<br>
 He nods.
 
 "Cool. Safe journey home."
@@ -28,7 +29,6 @@ He nods.
 ->END
 
 ===sex_debrief
-<br>
 He avoids your eyes.
 "I'm sorry I kind of...came on to you without a lot of warning. I think in the context, it kind of made sense, but, I still put you under pressure, and...I hope you understand why I thought it was appropriate, and...I hope it doesn't change things too much. I can still appreciate you without...'that' aspect of it. But, it's up to you."
 
@@ -41,4 +41,20 @@ He avoids your eyes.
     He nods.
     "Right. Understood. Sorry."->go_end
 
+->END
+
+===blowup
+He pauses, breathing heavily.
+
+"I'm sorry. I got so cross there. That was not fair on you."
+
+He puts his hands over his face, and exhales.
+
+"Sorry. I convince myself that I can just...talk about this shit, like it's stupid, and I'm stupid, but I think a lot of it still makes me really angry."
+
+His hands come away from his face.
+
+"Look, I'm going to go home. Sorry to cut this off. Sorry for blowing up like that. Yeah."
+
+He gives you a quick wave, and a nod. Then, he turns, and heads to his house.
 ->END
