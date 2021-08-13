@@ -11,8 +11,6 @@ The kettle drones. There's a games console under the TV, and a half-finished kni
 ->to_me
 * {not flirt}"Am I right in thinking that you describe yourself as 'gay'?
 ->g_s
-* {not flirt}
-* ->g_s 
 
 =g_s
 He takes a sip of coffee, and nods patiently, like he's explaining Microsoft Word to an elderly relative.

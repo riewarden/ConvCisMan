@@ -295,7 +295,7 @@ He eyes you.
 - ->d2
 
 =d2
-He at you again{flirt:, with a mock-confused expression}.
+He looks at you again{flirt:, with a mock-confused expression}.
 
 "{flirt:Now. }Do I know the question that's been at the {flirt:front|back} of your mind for the past{flirt:, ooh, maybe thirty| ten} minutes? Go on. You're allowed to ask it."
 
